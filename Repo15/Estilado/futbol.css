@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Titulo {
+  background-color: #17b017;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  font-size: 20px;
+}
+.Catalogo-Futbol {
+  display: flex;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #c2b827;
+}
+li {
+  display: inline;
+  padding: 30px;
+  top: 20px;
+  text-decoration: none;
+}
+
+p1,
+p2,
+p3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+footer {
+  background-color: salmon;
+  height: 200px;
+  width: auto;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item1 {
+  grid-area: item1;
+  display: inline-flex;
+  
+}
+
+.item1:hover {
+  background-color: crimson;
+  
+}
+
+.item2 {
+  grid-area: item2;
+  display: inline-flex;
+}
+.item2:hover {
+  background-color: crimson;
+}
+.item3 {
+  grid-area: item3;
+  display: inline-flex;
+}
+.item3:hover {
+  background-color: crimson;
+}
+
+.item4 {
+  grid-area: item4;
+  display: inline-flex;
+}
+
+.item5 {
+  grid-area: item5;
+  display: inline-flex;
+}
+
+.item6 {
+  grid-area: item6;
+  display: inline-flex;
+}
+
+.item7 {
+  grid-area: item7;
+  display: inline-flex;
+}
+
+.item8 {
+  grid-area: item8;
+  display: inline-flex;
+}
+
+.item9 {
+  grid-area: item9;
+  display: inline-flex;
+}
+.item10 {
+  grid-area: item10;
+  display: inline-flex;
+}
+.item11 {
+  grid-area: item11;
+  display: inline-flex;
+}
+.item12 {
+  grid-area: item12;
+  display: inline-flex;
+}
+.item13 {
+  grid-area: item13;
+  display: inline-flex;
+}
+.item14 {
+  grid-area: item14;
+  display: inline-flex;
+}
+/*
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr; 
+    grid-template-areas:"p1 item2 item3 item4 item5 item6"
+    ;
+    
+}
+
+*/
+.Eleccion5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "p1 item1 item2 item3 item4 item5 item6";
+  height: 200px;
+  justify-items: center;
+  align-items: center;
+  background-color: #17abb0;
+  border: solid;
+  background-image: linear-gradient(#139487, #86C6F4);
+}
+
+.Eleccion7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-areas: "p2 item7 item8 item9 item10";
+  height: 200px;
+  justify-items: center;
+  align-items: center;
+  background-color: #1764b0;
+  border: solid;
+  background-image: linear-gradient(#3E7C17, #2FDD92);
+}
+
+.Eleccion11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "p3 item11 item12 item13 item14";
+  height: 200px;
+  justify-items: center;
+  align-items: center;
+  background-color: #7a27c2;
+  border: solid;
+  background-image: linear-gradient(#FFC93C, #C6FFC1);
+}
+
+@media screen and (max-width: 425px) {
+  .Eleccion5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "p1"
+      "item1"
+      "item2"
+      "item3"
+      "item4"
+      "item5"
+      "item6";
+  }
+
+  .Eleccion7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "p2"
+      "item7"
+      "item8"
+      "item9"
+      "item10";
+  }
+  .Eleccion11 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "p3"
+      "item11"
+      "item12"
+      "item13"
+      "item14";
+  }
+  p1,
+  p2,
+  p3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+}

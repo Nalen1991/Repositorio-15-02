@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+h1 {
+    background-color: #17b017;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content:center;
+}
+
+.Catalogo-Tenis {
+    display: inline;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+li {
+    display: inline;
+    padding: 30px; top: 20px;
+    text-decoration: none;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Cesped {
+    background-color: #17abb0;
+    height: 200px;
+    
+}
+.PolvoDeLadrillo{
+    background-color: #1764b0;
+    height: 200px;
+}
+
+.Cemento {
+    background-color: #7a27c2;
+    height: 200px;
+
+}
+footer {
+    background-color: salmon;
+    height: 200px;
+    width: auto;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
